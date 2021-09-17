@@ -1,0 +1,9 @@
+{
+    "py/object": "data.HomePageData",
+    "Header": "A Survey on Source Code Analysis using Machine Learning",
+    "subHeader": "An evolving survey",
+    "title": "ML4SE",
+    "HomePageText": "The survey focuses on the usage of machine learning techniques on source code analysis. In this context, source code analysis includes any application that involves source code as input or output including source code representation, code quality analysis, testing, code summarization, and program synthesis.",
+    "menu": ["Home", "Code representation", "Program synthesis", "Testing", "Program comprehension", "Code summarization", "Quality assessment", "Code completion", "Vulnerability analysis", "Code review", "Code search", "Refactoring", "General"]
+
+}
