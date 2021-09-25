@@ -6,7 +6,7 @@ It is a live survey of studies that use machine learning techniques for source c
 - Please ensure that the study that you would like to include is not present in the collection already.
 
 To add a new entry in this study, 
-Create a new pull request with the edit in ML4SCA/assets/JSON/paperdata.json.
+Create a new pull request with the edit in **ML4SCA/assets/JSON/paperdata.json**.
 Edit should be in the same format as below: 
 
 ```
