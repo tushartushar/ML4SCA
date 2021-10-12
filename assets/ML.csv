@@ -1,0 +1,115 @@
+﻿ML_Acronym,ML_fullform
+AB,AdaBoost
+AE,Autoencoder
+AIS,Artificial Immune Systems
+ANFIS,Adaptive Neuro-Fuzzy Inference System
+ANN,Artifical Neural Network
+ARM,Association Rule Mining
+B,Bagging
+BERT,BERT
+Bi-GRU,Bidirectional GRU
+Bi-LSTM,Bi-LSTM
+Bi-RNN,Bidirectional RNN
+BiNN,Bilateral Nerual Network
+BMN,Best Matching Neighbours
+BN,Bayes Net
+BP-ANN,Backpropagation ANN
+BR,Binary Relevance
+BTE,Best-in-training-based ensemble
+CART,Classification and Regression Trees
+CC,Classifier Chain
+CCN,Cascade Correlation Network
+CNN,Convolution Neural Network
+COBWEB,COBWEB
+Code2Vec,Code2Vec
+CoForest-RF,Co-Forest Random Forrest
+CSC,Cost-Sensitive Classifier
+DBN,Deep Belief Network
+DDQN,Double Deep Q-Networks
+DNN,Deep Neural Network
+Doc2Vec,Doc2Vec
+DR,Diverse Rank 
+DS,Decision Stump
+DT,Decision Tree
+ELM,Extreme Learning Machine
+EM,Expectation Minimization
+EN-DE,Encoder-Decoder
+FIS,Fuzzy Inference System
+FL,Fuzzy Logic
+FR-CNN,Faster R-CNN
+GAN,Generative Adversarial Network
+GB,Gradient Boosting
+GBDT,Gradient-Boosted Decision Tree
+GBM,Gradient Boosting Machine
+GBT,Gradient boosted trees
+GD,Gradient Descent
+GED,Gaussian Encoder-Decoder
+GEP,Gene Expression Programming
+GGNN,Gated Graph Neural Network 
+GINN,Graph Interval Neural Network
+Glove,Global Vectors for Word Representation
+GNB,Gaussian Naïve Bayes
+GNN,Graph Neural Network
+GPT-C,Generative Pretrained Transformer for Code 
+GRASSHOPER,Graph Random-walk with Absorbing StateS that HOPs among PEaks for Ranking 
+GRU,Gated Recurrent Unit
+HAN,Hierarchical Attention Network
+HC,Hierarchical Clustering
+HMM,Hidden Markov Model
+Inst2Vec,Inst2Vec
+KM,KMeans
+KNN,K Nearest Neighbours
+KS,Kstar
+Lasso,Lasso
+LB,LogitBoost
+LC,Label Combination
+LCM,Logbilinear Context Model
+LDA,Linear Discriminant Analysis
+LLR,Logistic Linear Regression
+LMSR,Least Median Square Regression
+LOG,Logistic regression
+LR,Linear Regression
+LSTM,Long Short Term Memory
+MLP,Multi Level Perceptron
+MMR,Maximal Marginal Relevance 
+MNB,Multinomial Naive Bayes
+MNN,Memory Neural Network
+MTN,Modular Tree-structured RNN 
+MVE,Majority Voting Ensemble
+NB,Naïve Bayes
+NLM,Neural Language Model
+NMT,Neural Machine Translation
+NN,Neural Network
+NNC,Neural Network for Continuous goal
+NND,Neural Network for Discrete goal
+Node2Vec,Node2Vec
+OCC,One Class Classifier
+OR,OneRule
+PN,Pointer Network
+PNN,Probabilistic Neural Network
+POLY,Polynomial regression
+PR,Pace Regression
+PSO,Particle Swarm Optimization
+ReNN,Reverse NN
+ResNet,Residual Neural Network
+RF,Random Forrest
+RGNN,Regression Neural Network
+Ripper,Ripper
+RL,Reinforcement Learning
+RNN,Recurrent Neural Network
+RT,RandomTree
+SA,Simulated Annealing
+Seq2Seq,Sequence-to-Sequence
+SLP,Single Layer Perceptor
+SMO,Sequential Minimal Optimization 
+SMT,Statistical Machine Translation
+SOM,Self Organizing Map
+SVE,Soft Voting Ensemble
+SVLR,Support Vector Logistic Regression
+SVM,Support Vector Machine
+SVR,Support Vector Regression
+TF,Transformer
+TNB,Transfer Naïve Bayes
+V ,Voting
+VSL,Version Space Learning
+Word2Vec,Word2Vec
