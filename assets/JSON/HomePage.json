@@ -7,5 +7,5 @@
     "menu": ["Home", "Code representation", "Program synthesis", "Testing", "Program comprehension", "Code summarization", "Quality assessment", "Code completion", "Vulnerability analysis", "Code review", "Code search", "Refactoring", "General"],
     "getintouch1": "The core survey is created by: Tushar Sharma, Maria Kechagia, Stefanos Georgiou, Rohit Tiwari, and Federica Sarro.",
     "getintouch2": "Inviting contributions",
-    "getintouch3": " We invite authors of relevant papers to add their articles on this page. The criteria of relevancy as well as instructions to add a paper to this site can be found in this"
+    "getintouch3": " We invite authors of relevant papers to add their articles on this page. The criteria of relevancy as well as instructions to add a paper to this site can be found in the following repository."
 }
