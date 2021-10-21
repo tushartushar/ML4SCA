@@ -5,7 +5,7 @@
     "title": "ML4SCA",
     "HomePageText": "The survey focuses on the usage of machine learning techniques on source code analysis. In this context, source code analysis includes any application that involves source code as input or output including source code representation, code quality analysis, testing, code summarization, and program synthesis.",
     "menu": ["Home", "Code representation", "Program synthesis", "Testing", "Program comprehension", "Code summarization", "Quality assessment", "Code completion", "Vulnerability analysis", "Code review", "Code search", "Refactoring", "General"],
-    "getintouch1": "The core survey is created by: Tushar Sharma, Maria Kechagia, Stefanos Georgiou, Rohit Tiwari, and Federica Sarro. Find the current version of the paper on <a href=https://arxiv.org/abs/2110.09610>Arxiv</a>.",
+    "getintouch1": "The core survey is created by: Tushar Sharma, Maria Kechagia, Stefanos Georgiou, Rohit Tiwari, and Federica Sarro.",
     "getintouch2": "Inviting contributions",
     "getintouch3": " We invite authors of relevant papers to add their articles on this page. The criteria of relevancy as well as instructions to add a paper to this site can be found in the following repository."
 }
