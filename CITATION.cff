@@ -16,4 +16,5 @@ authors:
 - family-names: "Sarro"
   given-names: "Federica"
 title: "Replication package for Machine Learning for Source Code Analysis survey paper"
+date-released: 2022-09-02
 url: "https://github.com/tushartushar/ML4SCA"
