@@ -46,4 +46,4 @@ An example of above template is given below.
 
 
 ## Acknowledgements
-This work is authored by [Tushar Sharma](http://www.tusharma.in), Maria Kechagia, Stefanos Georgiou, Rohit Tiwari, and Federica Sarro.
+This work is authored by [Tushar Sharma](http://www.tusharma.in), Maria Kechagia, Stefanos Georgiou, Rohit Tiwari, Indira Vats, Hadi Moazen, and Federica Sarro.
