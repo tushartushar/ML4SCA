@@ -6437,6 +6437,128 @@
     "Link": "https://ieeexplore.ieee.org/abstract/document/8754502",
     "bibtex": "inproceedings{1097_Hu2019,\n    author = \"Hu, Xing and Men, Rui and Li, Ge and Jin, Zhi\",\n    title = \"Deep-autocoder: Learning to complete code precisely with induced code tokens\",\n    booktitle = \"2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)\",\n    volume = \"1\",\n    pages = \"159--168\",\n    year = \"2019\",\n    organization = \"IEEE\"\n}\n\n",
     "abstract": "Code completion is an essential part of modern IDEs. It assists the developers to speed up the process of coding and reducing typos. In this paper, we exploit the deep learning technique called LSTM to learn language models over large code corpus and make predictions of code elements. Unlike natural language, the innumerable identifiers lead to the vocabulary explosion and more difficult to predict. Therefore, we propose a new approach, the Induced Token based LSTM, to deal with the massive identifiers, thus decrease the vocabulary size. In order to induce the code tokens, we present two approaches, one is a constraint character-level LSTM and the other one is encoding identifiers with various preceding context before feeding them into a token-level LSTM. Based on the two approaches, a tool named Deep-AutoCoder is developed and evaluated in two classic completion scenarios, that is, method invocation completion and random completion. The experiment results indicate that Deep-AutoCoder outperforms the state-of-the-arts on method invocation completion and random code completion. Additionally, the empirical results of Deep-AutoCoder indicate that reducing the size of vocabulary can effectively improve the precision of code completion."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "A survey on deep learning for software engineering",
+    "year": 2022,
+    "ML_Techniques": "",
+    "Category": "General",
+    "Sub_category": "",
+    "Venue": "CSUR",
+    "Link": "https://dl.acm.org/doi/full/10.1145/3505243",
+    "bibtex": "",
+    "abstract": "In 2006, Geoffrey Hinton proposed the concept of training “Deep Neural Networks (DNNs)” and an improved model training method to break the bottleneck of neural network development. More recently, the introduction of AlphaGo in 2016 demonstrated the powerful learning ability of deep learning and its enormous potential. Deep learning has been increasingly used to develop state-of-the-art software engineering (SE) research tools due to its ability to boost performance for various SE tasks. There are many factors, e.g., deep learning model selection, internal structure differences, and model optimization techniques, that may have an impact on the performance of DNNs applied in SE. Few works to date focus on summarizing, classifying, and analyzing the application of deep learning techniques in SE. To fill this gap, we performed a survey to analyze the relevant studies published since 2006. We first provide an example to illustrate how deep learning techniques are used in SE. We then conduct a background analysis (BA) of primary studies and present four research questions to describe the trend of DNNs used in SE (BA), summarize and classify different deep learning techniques (RQ1), and analyze the data processing including data collection, data classification, data pre-processing, and data representation (RQ2). In RQ3, we depicted a range of key research topics using DNNs and investigated the relationships between DL-based model adoption and multiple factors (i.e., DL architectures, task types, problem types, and data types). We also summarized commonly used datasets for different SE tasks. In RQ4, we summarized the widely used optimization algorithms and provided important evaluation metrics for different problem types, including regression, classification, recommendation, and generation. Based on our findings, we present a set of current challenges remaining to be investigated and outline a proposed research road map highlighting key opportunities for future work."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Machine learning to evaluate evolvability defects: Code metrics thresholds for a given context",
+    "year": 2018,
+    "ML_Techniques": "LR",
+    "Category": "Quality assessment",
+    "Sub_category": "",
+    "Venue": "QRS",
+    "Link": "https://ieeexplore.ieee.org/document/8424961",
+    "bibtex": "",
+    "abstract": "Software insecurity is being identified as one of the leading causes of security breaches. In this paper, we revisited one of the strategies in solving software insecurity, which is the use of software quality metrics. We utilized a multilayer deep feedforward network in examining whether there is a combination of metrics that can predict the appearance of security-related bugs. We also applied the traditional machine learning algorithms such as decision tree, random forest, naïve bayes, and support vector machines and compared the results with that of the Deep Learning technique. The results have successfully demonstrated that it was possible to develop an effective predictive model to forecast software insecurity based on the software metrics and using Deep Learning. All the models generated have shown an accuracy of more than sixty percent with Deep Learning leading the list. This finding proved that utilizing Deep Learning methods and a combination of software metrics can be tapped to create a better forecasting model thereby aiding software developers in predicting security bugs."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Building program vector representations for deep learning",
+    "year": 2015,
+    "ML_Techniques": "DNN",
+    "Category": "Code representation",
+    "Sub_category": "",
+    "Venue": "KSEM",
+    "Link": "https://link.springer.com/chapter/10.1007/978-3-319-25159-2_49",
+    "bibtex": "",
+    "abstract": "Deep learning has made significant breakthroughs in various fields of artificial intelligence. However, it is still virtually impossible to use deep learning to analyze programs since deep architectures cannot be trained effectively with pure back propagation. In this pioneering paper, we propose the “coding criterion” to build program vector representations, which are the premise of deep learning for program analysis. We evaluate the learned vector representations both qualitatively and quantitatively. We conclude, based on the experiments, the coding criterion is successful in building program representations. To evaluate whether deep learning is beneficial for program analysis, we feed the representations to deep neural networks, and achieve higher accuracy in the program classification task than “shallow” methods. This result confirms the feasibility of deep learning to analyze programs."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Integrating tree path in transformer for code representation",
+    "year": 2021,
+    "ML_Techniques": "TF, GRU",
+    "Category": "Code representation",
+    "Sub_category": "",
+    "Venue": "NeurIPS",
+    "Link": "https://proceedings.neurips.cc/paper/2021/hash/4e0223a87610176ef0d24ef6d2dcde3a-Abstract.html",
+    "bibtex": "",
+    "abstract": "Learning distributed representation of source code requires modelling its syntax and semantics. Recent state-of-the-art models leverage highly structured source code representations, such as the syntax trees and paths therein. In this paper, we investigate two representative path encoding methods shown in previous research work and integrate them into the attention module of Transformer. We draw inspiration from the ideas of positional encoding and modify them to incorporate these path encoding. Specifically, we encode both the pairwise path between tokens of source code and the path from the leaf node to the tree root for each token in the syntax tree. We explore the interaction between these two kinds of paths by integrating them into the unified Transformer framework. The detailed empirical study for path encoding methods also leads to our novel state-of-the-art representation model TPTrans, which finally outperforms strong baselines. Extensive experiments and ablation studies on code summarization across four different languages demonstrate the effectiveness of our approaches. We release our code at \\url{https://github.com/AwdHanPeng/TPTrans}."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Towards automating code review activities",
+    "year": 2021,
+    "ML_Techniques": "RF, DT, BN",
+    "Category": "Code review",
+    "Sub_category": "",
+    "Venue": "ICSE",
+    "Link": "https://ieeexplore.ieee.org/abstract/document/9402025",
+    "bibtex": "",
+    "abstract": "Code reviews are popular in both industrial and open source projects. The benefits of code reviews are widely recognized and include better code quality and lower likelihood of introducing bugs. However, since code review is a manual activity it comes at the cost of spending developers' time on reviewing their teammates' code. Our goal is to make the first step towards partially automating the code review process, thus, possibly reducing the manual costs associated with it. We focus on both the contributor and the reviewer sides of the process, by training two different Deep Learning architectures. The first one learns code changes performed by developers during real code review activities, thus providing the contributor with a revised version of her code implementing code transformations usually recommended during code review before the code is even submitted for review. The second one automatically provides the reviewer commenting on a submitted code with the revised code implementing her comments expressed in natural language. The empirical evaluation of the two models shows that, on the contributor side, the trained model succeeds in replicating the code transformations applied during code reviews in up to 16% of cases. On the reviewer side, the model can correctly implement a comment provided in natural language in up to 31% of cases. While these results are encouraging, more research is needed to make these models usable by developers."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Using Pre-Trained Models to Boost Code Review Automation",
+    "year": 2022,
+    "ML_Techniques": "TF",
+    "Category": "Code review",
+    "Sub_category": "",
+    "Venue": "ICSE",
+    "Link": "https://arxiv.org/abs/2201.06850",
+    "bibtex": "",
+    "abstract": "Code review is a practice widely adopted in open source and industrial projects. Given the non-negligible cost of such a process, researchers started investigating the possibility of automating specific code review tasks. We recently proposed Deep Learning (DL) models targeting the automation of two tasks: the first model takes as input a code submitted for review and implements in it changes likely to be recommended by a reviewer; the second takes as input the submitted code and a reviewer comment posted in natural language and automatically implements the change required by the reviewer. While the preliminary results we achieved are encouraging, both models had been tested in rather simple code review scenarios, substantially simplifying the targeted problem. This was also due to the choices we made when designing both the technique and the experiments. In this paper, we build on top of that work by demonstrating that a pre-trained Text-To-Text Transfer Transformer (T5) model can outperform previous DL models for automating code review tasks. Also, we conducted our experiments on a larger and more realistic (and challenging) dataset of code review activities."
+},
+
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "AutoTransform: Automated Code Transformation to Support Modern Code Review Process",
+    "year": 2022,
+    "ML_Techniques": "TF",
+    "Category": "Code review",
+    "Sub_category": "",
+    "Venue": "ICSE",
+    "Link": "https://www.researchgate.net/publication/358486098_AutoTransform_Automated_Code_Transformation_to_Support_Modern_Code_Review_Process",
+    "bibtex": "",
+    "abstract": "Code review is effective, but human-intensive (e.g., developers need to manually modify source code until it is approved). Recently, prior work proposed a Neural Machine Translation (NMT) approach to automatically transform source code to the version that is reviewed and approved (i.e., the after version). Yet, its performance is still suboptimal when the after version has new identifiers or liter-als (e.g., renamed variables) or has many code tokens. To address these limitations, we propose AutoTransform which leverages a Byte-Pair Encoding (BPE) approach to handle new tokens and a Transformer-based NMT architecture to handle long sequences. We evaluate our approach based on 14,750 changed methods with and without new tokens for both small and medium sizes. The results show that when generating one candidate for the after version (i.e., beam width = 1), our AutoTransform can correctly transform 1,413 changed methods, which is 567% higher than the prior work, highlighting the substantial improvement of our approach for code transformation in the context of code review. This work contributes towards automated code transformation for code reviews, which could help developers reduce their effort in modifying source code during the code review process."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Unsupervised translation of programming languages",
+    "year": 2020,
+    "ML_Techniques": "Seq2Seq, TF",
+    "Category": "Program synthesis",
+    "Sub_category": "Program translation",
+    "Venue": "NeurIPS",
+    "Link": "https://proceedings.neurips.cc/paper/2020/hash/ed23fbf18c2cd35f8c7f8de44f85c08d-Abstract.html",
+    "bibtex": "",
+    "abstract": "A transcompiler, also known as source-to-source translator, is a system that converts source code from a high-level programming language (such as C++ or Python) to another. Transcompilers are primarily used for interoperability, and to port codebases written in an obsolete or deprecated language (e.g. COBOL, Python 2) to a modern one. They typically rely on handcrafted rewrite rules, applied to the source code abstract syntax tree. Unfortunately, the resulting translations often lack readability, fail to respect the target language conventions, and require manual modifications in order to work properly. The overall translation process is time-consuming and requires expertise in both the source and target languages, making code-translation projects expensive. Although neural models significantly outperform their rule-based counterparts in the context of natural language translation, their applications to transcompilation have been limited due to the scarcity of parallel data in this domain. In this paper, we propose to leverage recent approaches in unsupervised machine translation to train a fully unsupervised neural transcompiler. We train our model on source code from open source GitHub projects, and show that it can translate functions between C++, Java, and Python with high accuracy. Our method relies exclusively on monolingual source code, requires no expertise in the source or target languages, and can easily be generalized to other programming languages. We also build and release a test set composed of 852 parallel functions, along with unit tests to check the correctness of translations. We show that our model outperforms rule-based commercial baselines by a significant margin."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "A survey on deep learning for software engineering",
+    "year": 2018,
+    "ML_Techniques": "EN-DE, LSTM",
+    "Category": "Program synthesis",
+    "Sub_category": "Code generation",
+    "Venue": "EMNLP",
+    "Link": "https://arxiv.org/abs/1810.02720",
+    "bibtex": "",
+    "abstract": "We present TRANX, a transition-based neural semantic parser that maps natural language (NL) utterances into formal meaning representations (MRs). TRANX uses a transition system based on the abstract syntax description language for the target MR, which gives it two major advantages: (1) it is highly accurate, using information from the syntax of the target MR to constrain the output space and model the information flow, and (2) it is highly generalizable, and can easily be applied to new types of MR by just writing a new abstract syntax description corresponding to the allowable structures in the MR. Experiments on four different semantic parsing and code generation tasks show that our system is generalizable, extensible, and effective, registering strong results compared to existing neural semantic parsers."
+},
+{
+    "py/object": "data.DataClassPaper",
+    "Title": "Treegen: A tree-based transformer architecture for code generation",
+    "year": 2020,
+    "ML_Techniques": "TF",
+    "Category": "Program synthesis",
+    "Sub_category": "Code generation",
+    "Venue": "AAAI",
+    "Link": "https://ojs.aaai.org/index.php/AAAI/article/view/6430",
+    "bibtex": "",
+    "abstract": "A code generation system generates programming language code based on an input natural language description. State-of-the-art approaches rely on neural networks for code generation. However, these code generators suffer from two problems. One is the long dependency problem, where a code element often depends on another far-away code element. A variable reference, for example, depends on its definition, which may appear quite a few lines before. The other problem is structure modeling, as programs contain rich structural information. In this paper, we propose a novel tree-based neural architecture, TreeGen, for code generation. TreeGen uses the attention mechanism of Transformers to alleviate the long-dependency problem, and introduces a novel AST reader (encoder) to incorporate grammar rules and AST structures into the network. We evaluated TreeGen on a Python benchmark, HearthStone, and two semantic parsing benchmarks, ATIS and GEO. TreeGen outperformed the previous state-of-the-art approach by 4.5 percentage points on HearthStone, and achieved the best accuracy among neural network-based approaches on ATIS (89.1%) and GEO (89.6%). We also conducted an ablation test to better understand each component of our model."
 }
+
 
 ]
